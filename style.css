@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding:0;
+    background: #222222;
+    color: #FFFFFF;
+}
+.container-center {
+    width: 940px;
+    margin: 0 auto;
+}
+.main-header {
+    background:#000000;/** высота хедера 70  , позже посчитаем**/
+    /** высота хедера 70  , позже потом удалим свойство **/
+} 
+.main-header  a {
+    display:inline-block;
+    
+    margin-right: 40px;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+.user-area {
+   
+}
+ 
+nav {
+    display: inline-block;
+    min-height: 70px;
+}
+
+nav li {
+    display: inline-block;
+    
+  
+}
+
+nav ul {
+ 
+padding: 0;
+}
+ 
+
+.user-area {
+    display: inline-block;
+}
+
+main {
+    padding-top: 54px;
+    background: #070707 url("image/main-bg.jpg") no-repeat;
+    background-position: center center;
+    background-color:#070707;
+}
+.logo img {
+   display: block;
+   margin:0 auto 30px;
+}
+.main-promo-item {
+    float:left;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 250px;
+    
+}
+.main-promo-item:first-of-type {
+    margin-left: 0;
+}
+.main-promo-item:last-of-type {
+    margin-right:0;
+}
+.clear {
+    display:table;
+    clear:both;
+}
+.main-info {
+    width:940px;
+    min-height: 430px;
+    background-image: url("image/news-bg.png");
+    color: #000000;
+    margin-bottom: 34px;
+}
+.main-info section {
+    float: left;
+    width: 470px;
+    box-sizing: border-box;
+}
+.main-news {
+    padding: 50px 90px 0 80px;
+}
+ .button {
+    display: inline-block;
+    background: #000000;
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+  
+   
+}
+.main-info section  a {
+    display:inline-block;
+    width: 100px;
+    margin: auto;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.main-gallery {
+    padding-left: 90px;
+}
+.main-gallery img {
+    display:block;
+    border: 7px solid #FFFFFF;
+    margin-bottom: 37px;
+}
+
+form {
+    width: 300px;
+}
+.footer {
+    min-height: 190px;
+}
+
+
+
+
