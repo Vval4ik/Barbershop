@@ -88,7 +88,7 @@ main {
     box-sizing: border-box;
 }
 .main-news {
-    padding: 50px 90px 0 80px;
+    padding: 0 90px 0 80px;
 }
  .button {
     display: inline-block;
@@ -96,6 +96,7 @@ main {
     width: 140px;
     height: 40px;
     text-decoration: none;
+    margin-right: 20px;
   
    
 }
@@ -106,10 +107,15 @@ main {
     color: #FFFFFF;
     font-size: 14px;
     text-decoration: none;
+    margin-right: 20px;
     
 }
 .main-gallery {
     padding-left: 90px;
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .main-gallery img {
     display:block;
@@ -118,11 +124,21 @@ main {
 }
 
 form {
-    width: 300px;
+    
 }
+form input {
+    width: 125px;
+    height: 40px;
+    border: 2px solid #000000;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+
 .footer {
     min-height: 190px;
 }
+
 
 
 
